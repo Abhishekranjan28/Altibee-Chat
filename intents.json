@@ -1,0 +1,146 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Is anyone there?",
+        "Good day",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to HealthCare Plus. How can I assist you today?",
+        "Hi there! How can we help you with your healthcare needs?",
+        "Hey! We're here to assist you with any medical-related queries."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Wishing you good health.",
+        "Take care, and feel free to reach out anytime.",
+        "Bye! Stay healthy and have a great day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome! Always happy to help.",
+        "Glad to assist. Take care!",
+        "No problem at all. Stay healthy!"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "I need to book an appointment",
+        "How do I schedule a visit?",
+        "Can I see a doctor?",
+        "Book a consultation"
+      ],
+      "responses": [
+        "You can book an appointment through our website or by calling our helpline.",
+        "To schedule a visit, please provide your preferred date and time.",
+        "Sure, let us know your requirements, and we’ll help you book an appointment."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer?",
+        "Tell me about your healthcare services",
+        "Do you provide specialized care?",
+        "What facilities are available?"
+      ],
+      "responses": [
+        "We offer general consultations, specialist appointments, diagnostic tests, and health check-ups.",
+        "Our services include pediatric care, cardiology, dermatology, and many more.",
+        "We provide a wide range of healthcare services to ensure your well-being."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Do you accept health insurance?",
+        "What insurance plans do you cover?",
+        "Can I use my insurance here?",
+        "Is my insurance accepted?"
+      ],
+      "responses": [
+        "We accept most major health insurance plans. Please provide details for confirmation.",
+        "Yes, we work with several insurance providers. Let us know your insurance company.",
+        "Health insurance is accepted. Reach out for specific plan details."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "Do you handle emergencies?",
+        "Is there an emergency room?",
+        "What should I do in a medical emergency?",
+        "Can I visit in case of an emergency?"
+      ],
+      "responses": [
+        "Yes, we handle medical emergencies. Please visit our emergency room or call our helpline immediately.",
+        "In case of an emergency, please call our 24/7 helpline for assistance.",
+        "We are equipped to handle emergencies. Contact us immediately if you need urgent care."
+      ]
+    },
+    {
+      "tag": "medicines",
+      "patterns": [
+        "Do you have a pharmacy?",
+        "Can I get medicines here?",
+        "Do you deliver medicines?",
+        "Where can I buy prescribed drugs?"
+      ],
+      "responses": [
+        "Yes, we have an in-house pharmacy for your convenience.",
+        "You can purchase medicines directly from our pharmacy or order online for delivery.",
+        "Prescribed medicines are available at our pharmacy, and we also provide home delivery."
+      ]
+    },
+    {
+      "tag": "billing",
+      "patterns": [
+        "How can I pay my bills?",
+        "What payment methods do you accept?",
+        "Can I pay online?",
+        "What are the billing options?"
+      ],
+      "responses": [
+        "We accept cash, card, and online payments. Please visit our billing desk for details.",
+        "Online payment options are available through our portal.",
+        "You can pay using credit/debit cards, net banking, or UPI."
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "Give me some health tips",
+        "How can I stay healthy?",
+        "Share some wellness advice",
+        "Tips for a healthy lifestyle"
+      ],
+      "responses": [
+        "Eat a balanced diet, exercise regularly, and stay hydrated for optimal health.",
+        "Maintain good hygiene, manage stress, and get regular health check-ups.",
+        "Sleep well, avoid smoking, and limit alcohol intake for a healthier lifestyle."
+      ]
+    }
+  ]
+}
