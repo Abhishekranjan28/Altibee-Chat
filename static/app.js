@@ -44,7 +44,7 @@ class Chatbox {
     setLanguage() {
         this.language = this.args.languageSelect.value;
 
-        fetch('http://127.0.0.1:5000/set_language', {
+        fetch('https://altibbe-chat.onrender.com/set_language', {
             method: 'POST',
             body: JSON.stringify({ language: this.language }),
             headers: {
@@ -70,7 +70,7 @@ class Chatbox {
         let msg1 = { name: "User", message: text1 };
         this.messages.push(msg1);
 
-        fetch('http://127.0.0.1:5000/predict', {
+        fetch('https://altibbe-chat.onrender.com/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             headers: {
